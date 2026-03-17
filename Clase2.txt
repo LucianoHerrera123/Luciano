@@ -1,0 +1,11 @@
+Que es una libreria? Una libreria es un conjunto de funciones ya establecidas que podes volver a utilizar para dicha funcionalidad.
+Que es un Framework? Un framework o un marco de trabajo es una estructura que define como debe organizarse y ejecutarse tu app "Tu escribes el codigo que encaja en las reglas dos puntos De entrada que el framework define.
+Framework VueJS nos da un conjunto de carpetas y de sus carpetas donde nos va a decir donde va a ir cada seccion respetando cada estructura que nos da. Se centra en la capa de vista(UI).
+Frontend lo que se le muestra, como de la pagina web en si.(UI)
+Backend lo que se encuentra por atras, como se llama tambien la logica de la aplicación, como PHP, BD, etc. (UI)
+Framework React 
+Framework Angular los 3 manejan bien el concepto de los componentes que emplearan. 
+Funcion que es? Una función es un bloque de código que hace una tarea.
+IDE: entorno de desarrollo integral.
+
+
