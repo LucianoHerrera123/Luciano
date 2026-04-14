@@ -1,0 +1,12 @@
+Sketch es un esquema visual de como yo pienso que se va a ver visualmente la pagina web.
+
+
+cuando no se encuentra NPM vamos a comand promt y si no deja ahí de vuelta vamos al navegador a nodeJS si no reconoce el comando. 
+componentes en vue permiten hacer códigos reutilizables y son partes de la pagina web. Tiene tres partes, HTML ETIQUETA TEMPLATE, STILOS(STYLE) Y JAVA SCRIPT.
+
+1-GIT STATUS: archivos nuevos, color rojo es igual a 0 información.
+2-Git ADD: agregar los archivos a git localmente. GIT ADD .
+3-git commit -m "clase 4": para guardar los cambios y el -m es un mensaje y que tenga una referencia de lo realizado.
+4-git push: subir al github
+
+Un repositorio es un proyecto donde se guardan los archivos y cuenta con 2 tipos: remoto o local.
