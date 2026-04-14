@@ -1,0 +1,7 @@
+Clase 3 Lenguaje LHI
+NPM: es el gestor de librerías de node 
+Comandos: 
+npm créate vito@latest es para crear el proyecto
+npm install sirve para instalar las dependencias del proyecto
+npm run dev levanta un servidor local a través de vite para correr la app
+
