@@ -1,0 +1,4 @@
+Toma de nota:
+Git cuando se trabaja, emplea en una sola linea llamada main, en donde teniendo en cuenta esa rama va creando diversas clases, haciendo copias, y luego cuando se uno lo de la rama secundaria se debe unir a la rama primaria, con git push y después se crea el PR. Cuando ponemos git status, el mensaje en rojo sale en rojo dependiendo de la rama, default es la que debe coincidir en GitHub y continuamos con los comandos correctamente y ordenada. 
+git Branch 
+git checkout main 
