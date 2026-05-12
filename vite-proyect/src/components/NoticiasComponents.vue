@@ -1,97 +1,84 @@
+<template>
+  <section id="noticias" class="noticias">
+
+    <h2>Últimas Noticias de River Plate</h2>
+
+    <div class="contenedor-noticias">
+
+      <!-- NOTICIA 1 -->
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1603297631951-1c3d7c3f9a3d" />
+        <h3>River pasó a cuartos del Torneo Apertura</h3>
+        <p>El equipo logró la clasificación tras un gran partido y se mete entre los mejores del torneo.</p>
+      </div>
+
+      <!-- NOTICIA 2 -->
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018" />
+        <h3>Gran nivel del equipo de Demichelis</h3>
+        <p>River mantiene una racha positiva y se posiciona como candidato al título.</p>
+      </div>
+
+      <!-- NOTICIA 3 -->
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2" />
+        <h3>El Monumental explotó de emoción</h3>
+        <p>Los hinchas acompañaron al equipo en una noche inolvidable.</p>
+      </div>
+
+    </div>
+
+  </section>
+</template>
+
 <script>
 export default {
   name: "NoticiasComponents"
 }
 </script>
 
-<template>
-  <main class="dashboard">
-
-    <section class="header-news">
-      <h1>Noticias de River</h1>
-      <p>Enterate de todo lo que pasa en el club</p>
-    </section>
-
-    <section class="featured">
-      <div class="featured-card">
-        <h2>🔥 River ganó el Superclásico</h2>
-        <p>Gran victoria en el Monumental con un gran rendimiento del equipo.</p>
-        <button>Leer más</button>
-      </div>
-    </section>
-
-    <section class="news-grid">
-
-      <div class="news-card">
-        <h3>Nuevo refuerzo</h3>
-        <p>El club suma una pieza clave para la temporada.</p>
-      </div>
-
-      <div class="news-card">
-        <h3>Entradas disponibles</h3>
-        <p>Ya podés comprar tickets para el próximo partido.</p>
-      </div>
-
-      <div class="news-card">
-        <h3>Entrenamiento</h3>
-        <p>El plantel se prepara en Ezeiza.</p>
-      </div>
-
-      <div class="news-card">
-        <h3>DT habló con la prensa</h3>
-        <p>Analizó el rendimiento del equipo.</p>
-      </div>
-
-    </section>
-
-  </main>
-</template>
-
 <style scoped>
-.dashboard {
-  padding: 30px;
-  max-width: 1100px;
-  margin: auto;
-  font-family: Arial;
+.noticias {
+  padding: 40px;
+  background-color: #f5f5f5;
+  text-align: center;
 }
 
-.header-news h1 {
-  font-size: 28px;
+.noticias h2 {
+  margin-bottom: 30px;
+  color: #b30000;
 }
 
-.header-news p {
-  color: gray;
-  margin-bottom: 20px;
+.contenedor-noticias {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
-.featured-card {
-  background: linear-gradient(135deg, #d60000, #8b0000);
-  color: white;
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-
-.featured-card button {
-  margin-top: 10px;
-  padding: 8px 12px;
-  border: none;
+.card {
   background: white;
-  color: #d60000;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.news-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 15px;
-}
-
-.news-card {
-  background: #1a1a1a;
-  color: white;
+  border-radius: 10px;
+  width: 300px;
   padding: 15px;
-  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 14px;
 }
 </style>
